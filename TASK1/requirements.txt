@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────────────────────
+# AI Text Summarization Tool – Python Dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Abstractive summarization (Hugging Face)
+transformers>=4.35.0
+torch>=2.0.0
+
+# Extractive summarization
+sumy>=0.11.0
+
+# Natural Language Toolkit (tokenization, stopwords)
+nltk>=3.8.0
+
+# Optional – URL article extraction
+# newspaper3k>=0.2.8
+
+# Optional – GUI
+# tkinter is part of the Python standard library (no pip install needed)
