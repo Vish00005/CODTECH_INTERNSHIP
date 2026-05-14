@@ -1,0 +1,14 @@
+# AI Speech Recognition System — Python Dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Core speech libraries ────────────────────────────────────────────────────
+speechrecognition>=3.10.0       # Google Web Speech API wrapper
+openai-whisper>=20231117        # Offline speech-to-text by OpenAI
+
+# ── Audio processing ─────────────────────────────────────────────────────────
+pydub>=0.25.1                   # Read/convert .wav, .mp3, .m4a
+ffmpeg-python>=0.2.0            # Python bindings for FFmpeg
+
+# ── Numeric/ML backend (required by Whisper) ─────────────────────────────────
+torch>=2.0.0                    # PyTorch (CPU build is sufficient)
+numpy>=1.24.0                   # Numerical arrays
